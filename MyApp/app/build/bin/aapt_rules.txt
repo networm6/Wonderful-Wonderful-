@@ -1,0 +1,12 @@
+# view res/layout/list.xml #generated:30
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class com.mycompany.myvideo.Playlist { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class com.mycompany.myvideo.VideoPlayer { <init>(...); }
+
+# onClick res/layout/list.xml #generated:21
+-keepclassmembers class * { *** gogo(...); }
+
